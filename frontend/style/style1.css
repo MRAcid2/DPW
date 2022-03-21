@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 5;
+    box-sizing: border-box;
+}
+
+body {
+    background-image:url('https://cdn.pixabay.com/photo/2016/03/26/13/09/workspace-1280538_960_720.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family:sans-serif ;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    color:white;
+}
+
+nav {
+    margin:auto;
+    text-align: center;
+    width: 100%;
+    font-family: arial;
+} 
+
+p {
+    color: white;
+    padding: 25px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+nav img {
+    width: 70px;
+    float: left;
+    padding: 20;
+}
+
+nav ul {
+    background:none;
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+ }
+
+nav ul li{
+    float:right;
+}
+
+nav ul li:hover{
+    background:#ffffff;
+}
+
+nav ul li:hover a{
+     color:rgb(0, 0, 0);
+}
+
+nav ul li a{
+     display: block;
+     padding: 25px;
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    background-color:white ;
+    text-align: center;
+  }
+
+.column p {
+    color: black;
+    text-align:center;
+}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.column a {
+    display: block;
+    color: white;
+    background-color: green;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white; 
+    bottom: 0;
+    width: 100%;
+}
